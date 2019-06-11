@@ -3,8 +3,8 @@
 session_start();
 
 $conn = mysqli_connect(
-    'aplicacionweb1010-mysqldbserver.mysql.database.azure.com',
-    'mysqldbuser@aplicacionweb1010-mysqldbserver',
+    'https://aplicacionweb1010.azurewebsites.net',
+    'mysqldbuser',
     'Huevos77',
     'mysqldatabase43886'
 );
